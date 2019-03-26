@@ -1,0 +1,6 @@
+framework module Pods_DropDownAnimated {
+  umbrella header "Pods-DropDownAnimated-umbrella.h"
+
+  export *
+  module * { export * }
+}
