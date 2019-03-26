@@ -12,9 +12,19 @@
 		0E020B242249F4E500B0BDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E020B222249F4E500B0BDEA /* Main.storyboard */; };
 		0E020B262249F4E600B0BDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E020B252249F4E600B0BDEA /* Assets.xcassets */; };
 		0E020B292249F4E600B0BDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E020B272249F4E600B0BDEA /* LaunchScreen.storyboard */; };
+		0E020B312249F78700B0BDEA /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E020B302249F78700B0BDEA /* iOSDropDown.framework */; };
+		0E020B332249FC8A00B0BDEA /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E020B322249FC8A00B0BDEA /* MenuTableViewCell.swift */; };
+		0E020B35224A04D800B0BDEA /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E020B34224A04D800B0BDEA /* TypeAlias.swift */; };
+		0E020B37224A052F00B0BDEA /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E020B36224A052F00B0BDEA /* Animator.swift */; };
+		0E020B39224A083200B0BDEA /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E020B38224A083200B0BDEA /* UITableView+Ext.swift */; };
+		0E020B3B224A094C00B0BDEA /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E020B3A224A094C00B0BDEA /* AnimationFactory.swift */; };
+		0E020B3E224A0FCB00B0BDEA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E020B3D224A0FCB00B0BDEA /* ViewModel.swift */; };
+		0E020B40224A118C00B0BDEA /* ViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E020B3F224A118C00B0BDEA /* ViewController+Ext.swift */; };
+		1A99369937A402F6B76D3160 /* Pods_DropDownAnimated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0414AB88E3A87E9248633F6D /* Pods_DropDownAnimated.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0414AB88E3A87E9248633F6D /* Pods_DropDownAnimated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownAnimated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E020B1B2249F4E500B0BDEA /* DropDownAnimated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownAnimated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E020B1E2249F4E500B0BDEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E020B202249F4E500B0BDEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,16 @@
 		0E020B252249F4E600B0BDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E020B282249F4E600B0BDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E020B2A2249F4E600B0BDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E020B302249F78700B0BDEA /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E020B322249FC8A00B0BDEA /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		0E020B34224A04D800B0BDEA /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		0E020B36224A052F00B0BDEA /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		0E020B38224A083200B0BDEA /* UITableView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		0E020B3A224A094C00B0BDEA /* AnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
+		0E020B3D224A0FCB00B0BDEA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0E020B3F224A118C00B0BDEA /* ViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Ext.swift"; sourceTree = "<group>"; };
+		2469A4B6CAB71126E7D20EA6 /* Pods-DropDownAnimated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownAnimated.release.xcconfig"; path = "Target Support Files/Pods-DropDownAnimated/Pods-DropDownAnimated.release.xcconfig"; sourceTree = "<group>"; };
+		268F48A38404132C1F30E71A /* Pods-DropDownAnimated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownAnimated.debug.xcconfig"; path = "Target Support Files/Pods-DropDownAnimated/Pods-DropDownAnimated.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E020B312249F78700B0BDEA /* iOSDropDown.framework in Frameworks */,
+				1A99369937A402F6B76D3160 /* Pods_DropDownAnimated.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,8 @@
 			children = (
 				0E020B1D2249F4E500B0BDEA /* DropDownAnimated */,
 				0E020B1C2249F4E500B0BDEA /* Products */,
+				33ECBC596427B3C13E5975ED /* Pods */,
+				4B91B1878E780219633A200A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +79,62 @@
 			isa = PBXGroup;
 			children = (
 				0E020B1E2249F4E500B0BDEA /* AppDelegate.swift */,
-				0E020B202249F4E500B0BDEA /* ViewController.swift */,
+				0E020B34224A04D800B0BDEA /* TypeAlias.swift */,
+				0E020B42224A1B2B00B0BDEA /* Extensions */,
+				0E020B41224A1B0D00B0BDEA /* TableAnimationHelpers */,
+				0E020B3C224A0FA500B0BDEA /* ViewController */,
 				0E020B222249F4E500B0BDEA /* Main.storyboard */,
 				0E020B252249F4E600B0BDEA /* Assets.xcassets */,
 				0E020B272249F4E600B0BDEA /* LaunchScreen.storyboard */,
 				0E020B2A2249F4E600B0BDEA /* Info.plist */,
 			);
 			path = DropDownAnimated;
+			sourceTree = "<group>";
+		};
+		0E020B3C224A0FA500B0BDEA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E020B202249F4E500B0BDEA /* ViewController.swift */,
+				0E020B3D224A0FCB00B0BDEA /* ViewModel.swift */,
+				0E020B3F224A118C00B0BDEA /* ViewController+Ext.swift */,
+				0E020B322249FC8A00B0BDEA /* MenuTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E020B41224A1B0D00B0BDEA /* TableAnimationHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				0E020B36224A052F00B0BDEA /* Animator.swift */,
+				0E020B3A224A094C00B0BDEA /* AnimationFactory.swift */,
+			);
+			path = TableAnimationHelpers;
+			sourceTree = "<group>";
+		};
+		0E020B42224A1B2B00B0BDEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E020B38224A083200B0BDEA /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		33ECBC596427B3C13E5975ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				268F48A38404132C1F30E71A /* Pods-DropDownAnimated.debug.xcconfig */,
+				2469A4B6CAB71126E7D20EA6 /* Pods-DropDownAnimated.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B91B1878E780219633A200A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E020B302249F78700B0BDEA /* iOSDropDown.framework */,
+				0414AB88E3A87E9248633F6D /* Pods_DropDownAnimated.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E020B2D2249F4E600B0BDEA /* Build configuration list for PBXNativeTarget "DropDownAnimated" */;
 			buildPhases = (
+				0E137124C86D12FCA02C8BD9 /* [CP] Check Pods Manifest.lock */,
 				0E020B172249F4E500B0BDEA /* Sources */,
 				0E020B182249F4E500B0BDEA /* Frameworks */,
 				0E020B192249F4E500B0BDEA /* Resources */,
+				BAFC4C1B3BB671D0D84C3798 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +205,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E137124C86D12FCA02C8BD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropDownAnimated-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFC4C1B3BB671D0D84C3798 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownAnimated/Pods-DropDownAnimated-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DropDownAnimated/Pods-DropDownAnimated-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E020B172249F4E500B0BDEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E020B37224A052F00B0BDEA /* Animator.swift in Sources */,
+				0E020B3B224A094C00B0BDEA /* AnimationFactory.swift in Sources */,
 				0E020B212249F4E500B0BDEA /* ViewController.swift in Sources */,
 				0E020B1F2249F4E500B0BDEA /* AppDelegate.swift in Sources */,
+				0E020B39224A083200B0BDEA /* UITableView+Ext.swift in Sources */,
+				0E020B35224A04D800B0BDEA /* TypeAlias.swift in Sources */,
+				0E020B3E224A0FCB00B0BDEA /* ViewModel.swift in Sources */,
+				0E020B332249FC8A00B0BDEA /* MenuTableViewCell.swift in Sources */,
+				0E020B40224A118C00B0BDEA /* ViewController+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +409,7 @@
 		};
 		0E020B2E2249F4E600B0BDEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268F48A38404132C1F30E71A /* Pods-DropDownAnimated.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +428,7 @@
 		};
 		0E020B2F2249F4E600B0BDEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2469A4B6CAB71126E7D20EA6 /* Pods-DropDownAnimated.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
